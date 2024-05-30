@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    background-color: #00c300;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 10px;
+    background-color: #00c300;
+    color: white;
+}
+.heros {
+    text-align: center;
+    padding: 50px;
+    background-color: #f2f1f1;
+    color: rgb(1,1, 1);
+}
+.im {
+    text-align: center;
+    padding: 10px;
+    background-color: #5ba88a;
+    color: rgb(94, 172, 171);
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.comics {
+    padding: 20px;
+    text-align: center;
+}
+
+.comics h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.comic-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    text-align: center;
+}
+
+.comic {
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.comic img {
+    max-width: 100%;
+    border-radius: 50;
+    text-align: center;
+}
+
+.comic h3 {
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #333;
+    color: white;
+}
+/**/
+
+
+li, ol, ul {
+    list-style: none;
+}
+body, button, dd, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, select, table, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+body, button, input, select, table, textarea {
+    font-family: hind, simhei, verdana, Helvetica, sans-serif;
+    font-size: 12px;
+}
